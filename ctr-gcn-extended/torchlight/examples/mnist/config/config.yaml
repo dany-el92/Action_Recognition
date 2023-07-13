@@ -1,0 +1,17 @@
+engine:
+  max_epochs: 5
+  log_img_step: 100
+  enable_early_stop: True
+  early_stop_threshold: 0.1
+  mnt: max val_accuracy
+
+
+module:
+  lr: 0.001
+  
+train_loader:
+  batch_size: 64
+
+test_loader:
+  batch_size: 64
+  shuffle: False

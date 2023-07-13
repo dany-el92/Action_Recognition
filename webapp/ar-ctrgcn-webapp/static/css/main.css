@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body { 
+    background: rgb(0, 80, 251) !important; 
+    color: white !important;
+} 
+
+#myNavBar{
+    
+}
+
+.nav-link { 
+    color: white !important;    
+    font-size: 20px;  
+     
+}
+
+.nav-item { 
+    margin-left: 70px;
+}
+
+#titolo{
+    text-align: center;
+    font-size: 180%;
+    padding: 1%;      
+}
+
+a:link, a:visited, a:active, a:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+
+#istruzioni{
+    text-align: center;
+    font-size: 170%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1%;
+}
+
+
+
+/*
+#camElement{
+    margin: 50px 250px;
+}
+
+*/
+#calculateButton {
+	background-color: rgb(0, 117, 251);
+	border-radius:42px;
+	border:1px solid rgb(31, 133, 250);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:19px 31px;
+	text-decoration:none;
+    margin-left: 45%;
+    margin-top: 3%;
+
+}
+
+
+#box-risultato{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.high-prob{
+    color:rgb(0, 80, 251) !important;
+    font-size: 18px !important;
+}
+
+.prob{
+    color:rgb(0, 80, 251) !important;
+    font-size: 20px !important;
+}
+
+.low-prob{
+    color:rgb(33, 103, 253) !important;
+    font-size: 16px !important;
+}
+
+/*
+background-color: rgba(0, 0, 0, 0.8);
+
+.risultato {    
+    text-align: center;
+    font-size: 180%;
+}
+    
+
+body {
+    background-color: rgb(70, 0, 233);
+    background-color: #6610f2;
+}   
+*/
+
+#myFooter {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#video {
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */	
+}
+
+
+
+.switch-toggle {
+    width: 20em;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.switch-toggle label:not(.disabled) {
+    cursor: pointer;
+}
